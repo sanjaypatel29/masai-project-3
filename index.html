@@ -4,29 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GetRepoSearch</title>
+    <title>Indian railway</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 </head>
 
-<body>
-    <div id="job" class="container border border-primary">
-
-        <input type="text" id="description" placeholder="filter by title, benifits, companies" />
-        <input type="text" id="location" placeholder="location,pincode,cityname" />
-        <select id="description" defaultValue="python">
-            <option value="all"> all</option>
-            <option value="fulltime">full TIme</option>
-        </select>
-        <button id="getinfo">Search</button>
+<body class="bg-light">
+    <div class="container-fluid border">
+        <div class="row">
+            <nav class="navbar container-fluid navbar-expand-lg navbar-dark bg-dark ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a style="font-size: 40px; color: yellow;" class="navbar-brand" href="index.html">RailSewa</a>
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item ml-5">
+                            <a class="nav-link ml-5" href="stationlive.html">Live station <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ml-5">
+                            <a class="nav-link ml-5" href="pnr.html">Pnr status</a>
+                        </li>
+                        <li class="nav-item ml-5">
+                            <a class="nav-link ml-5" href="pnr.html">Running live status</a>
+                        </li>
+                        <li class="nav-item ml-5">
+                            <a class="nav-link ml-5" href="pnr.html">train beetween station</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
     </div>
-
-    <div id="res"> </div>
-
-    <script type="text/javascript" src="index.js"></script>
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </body>
 
 </html>
