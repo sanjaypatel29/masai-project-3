@@ -2,9 +2,9 @@
 ## Railseva website is based on indianrailapi.
 ![Awesome](https://img.shields.io/badge/Tech%20used-Html%20%7C%20Javascript%20%7C%20Css%20%7C%20Bootstrap-brightgreen)
 ### Homepage:
-<img height="40" src="https://www.linkpicture.com/q/r1_2.png">
+<img src="https://www.linkpicture.com/q/r1_2.png">
 ### trains Search page:
-<img height="40" src="https://www.linkpicture.com/q/r2_2.png">
+<img src="https://www.linkpicture.com/q/r2_2.png">
 
 ### About RailSeva
 
@@ -13,8 +13,8 @@
 - [x] All pages
 - [x] Trains search functionality within 2 and 4hrs.
 ### Yet to implement:
-- [] Pnr Enquary
-- [] Running live status
-- [] Train beetween station
+- [ ] Pnr Enquary
+- [ ] Running live status
+- [ ] Train beetween station
 
 Any Suggestions regarding improvement of website welcome.....
